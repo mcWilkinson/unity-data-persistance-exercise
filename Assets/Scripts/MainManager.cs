@@ -62,6 +62,10 @@ public class MainManager : MonoBehaviour
         }
     }
 
+    public void StartGame() {
+        SceneManager.LoadScene("main");
+    }
+
     void AddPoint(int point)
     {
         m_Points += point;
